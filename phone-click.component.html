@@ -1,0 +1,9 @@
+<div class="container">
+  <div>
+    <p>Please, select your phone number from the counter below.</p>
+    <form #phoneForm="ngForm" (ngSubmit)="onSubmit()">
+      <p>{{ phoneNumber }}</p>
+      <button type="submit">This!</button>
+    </form>
+  </div>
+</div>
